@@ -1,0 +1,10 @@
+Insert          Append          Param
+~2.178s         4.0038ms        extraLargeArray
+7.6114ms        469.7us         largeArray
+136.1us         46.5us          mediumArray
+17.1us          9us             smallArray
+5.6us           6.8us           tinyArray
+
+Insert is an raised to the second power or has an exponent of 2 algorithm because it must touch every element in the pre-existing array and 
+shift it down a spot before it puts a new element at the beginning. However, Append is a worst case O(n) algorithm, but average case of constant time.Append scales much better
+ in time performance and  it's easy to tell based on the big O of the algorithms, and the collected data.
